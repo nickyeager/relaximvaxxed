@@ -17,6 +17,7 @@ const HomeAllProductsGrid: FC<Props> = ({
   brands,
   products = [],
 }) => {
+  console.log('products', products)
   return (
     <div className={s.root}>
       <div className={s.asideWrapper}>
